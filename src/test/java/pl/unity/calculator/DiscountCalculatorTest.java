@@ -53,6 +53,9 @@ class DiscountCalculatorTest {
                         new CalculationArguments(Arrays.asList(1, 3_33), 3_33),
                         Arrays.asList(0, 3_33)),
                 Arguments.of(
+                        new CalculationArguments(Arrays.asList(11, 22), 50),
+                        Arrays.asList(11, 22)),
+                Arguments.of(
                         new CalculationArguments(Arrays.asList(11, 22, 33, 44, 55), 1_11),
                         Arrays.asList(7, 14, 22, 29, 39)),
                 Arguments.of(
